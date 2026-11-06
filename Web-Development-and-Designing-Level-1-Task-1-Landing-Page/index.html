@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wanderlust | Explore the World</title>
+
+<!-- --favicon-- -->
+<link rel="icon" href="travel-icon.png" type="image/png">
+
+<link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<!--Gallery controls: CSS uses these to rotate the pictures-->
+ <input type="radio" name="destination" id="bali" checked>
+    <input type="radio" name="destination" id="maldives">
+    <input type="radio" name="destination" id="switzerland">
+    <input type="radio" name="destination" id="phuket">
+
+<div class="site">
+
+<header class="navbar">
+    <a href="#home" class="logo">✈ Wanderlust</a>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#destinations">Packages</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<a href="#destinations" class="nav-button">Book Now</a>
+</header>
+
+<!--Hero Section-->
+
+<main>
+    <section class="hero" id="home">
+
+<div class="hero-content">
+
+<span class="eyebrow">YOUR JOURNEY BEGIN HERE</span>
+<h1>Escape to Tropical <span>Paradise</span></h1>
+<p>Discover beautiful destinations, explore breathtaking landscapes and create unforgettable memories.Your dream vacation is just one journey away.</p>
+
+<div class="hero-buttons">
+<a href="#destinations" class="primary-button">Explore Destination ↗</a>
+<a href="#about" class="text-button">Discover More</a>
+</div>
+
+<div class="hero-stats">
+   <div><h3>50+</h3><span>Destination</span></div>
+    <div><h3>10k+</h3><span>Happy Travelers</span></div>
+    <div><h3>4.9★</h3><span>Customer Rating</span></div>
+</div>
+
+</div>
+
+<!--Main image and rotating gallery-->
+<div class="hero-visual">
+    <div class="image-glow"></div>
+
+<div class="main-image">
+<img src="travel.PNG" alt="3D floating Tropical Island">
+</div>
+
+<!--Click a picture to rotate the gallery-->
+<div class="orbit">
+
+<label for="bali" class="orbit-card card-bali">
+    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400" alt="Bali">
+    <span>Bali</span>
+</label>
+
+<label for="maldives" class="orbit-card card-maldives" >
+    <img src="https://thetravelmagazine.net/wp-content/uploads/Bodu.jpg" alt="Maldives">
+    <span>Maldives</span>
+</label>
+
+<label for="switzerland" class="orbit-card card-switzerland" >
+    <img src="https://www.theinvisibletourist.com/wp-content/uploads/2019/09/featured_122.jpg" alt="Switzerland">
+    <span>Switzerland</span>
+</label>
+
+<label for="phuket" class="orbit-card card-phuket">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/65/10/39/caption.jpg?w=600&h=-1&s=1" alt="Phuket">
+    <span>Phuket</span>
+</label>
+
+</div>
+
+</div>
+
+<div class="destination-controls">
+
+    <label for="bali" class="destination-choice">Bali</label>
+
+    <label for="maldives" class="destination-choice">Phuket</label>
+
+    <label for="switzerland" class="destination-choice">Switzerland</label>
+
+    <label for="phuket" class="destination-choice">Maldives</label>
+
+</div>
+
+
+    </section>
+
+<!--Destinations-->
+<section class="destinations section" id="destinations">
+
+<div class="section-heading">
+    <span class="eyebrow">EXPLORE THE WORLD</span>
+    <h2>Popular destination</h2>
+    <p>Find your next unforgettable adventure.</p>
+</div>
+
+<div class="destination-grid">
+
+<article class="destination-card">
+    <div class="destination-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQ78v8zXO2P9_QFpoDGW4OSsrHOrlWrRf4cE0H-MsT5hMdoxyYOncX_ji&s=10" alt="Maldives">
+    <span class="price">$699</span>
+    </div>
+
+<div class="destination-info">
+<h3>Maldives</h3>
+<p>🌊 Crystal-clear water and Luxury resorts</p>
+<a href="#contact">Explore Package ↗</a>
+  </div>  
+</article>
+
+<article class="destination-card">
+
+<div class="destination-image">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcXzm4vuaH18F8Yi6lhApL-oE2PObRuVbCrG_jA7-4aTQqPeI3xu5u7lDK&s=10" alt="Bali">
+<span class="price">$499</span>
+</div>
+
+<div class="destination-info">
+    <h3>Bali Indonesia</h3>
+    <p>🌴 Trpoical beaches and beautiful nature</p>
+    <a href="#contact">Explore Package ↗</a>
+</div>
+
+</article>
+
+<article class="destination-card">
+    <div class="destination-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9RADNP47GklRghcdJ07g1FmCP0tKx3tGRh4BsjOKmj7ATKhsf7onK6WeZ&s=10">
+    <span class="price">$599</span>
+    </div>
+
+<div class="destination-info">
+<h3>Switzerland</h3>
+<p>🏔️ Mountains and breathtaking views</p>
+<a href="#contact">Explore Package ↗</a>
+  </div>  
+</article>
+
+</div>
+</section>
+
+<!--About-->
+<section class="about section" id="about">
+
+<div class="about-image">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="Beautiful travel landscape">
+</div>
+
+<div class="about-content"><span class="eyebrow">ABOUT WANDERLUST</span>
+<h2>Travel More, Worry Less</h2>
+<p>We believe every journey should be special.
+   Our goal is to help traveler discover amazing places, enjoy comfortable stays and make memories that last forever.
+</p>
+
+<div class="about-points">
+<p>✓ Carefully selected destination</p>
+<p>✓ Memorable travel experiences</p>
+</div>
+
+<a href="#contact" class="primary-button">Plan Your Trip</a>
+</div>
+
+</section>
+
+<!--Why choose us-->
+<section class="features section">
+
+<div class="section-heading">
+<span class="eyebrow">WHY TRAVEL WITH US</span>
+<h2>Make Every Journey Special</h2>
+</div>
+
+<div class="feature-grid">
+  <div class="feature-card">
+    <div class="feature-icon">🌍</div>
+    <h3>Amazing Places</h3>
+    <p>Discover beautiful destinations around the world.</p>
+  </div>
+
+<div class="feature-card">
+    <div class="feature-icon">💎</div>
+    <h3>Best Experience</h3>
+    <p>Enjoy comfortable trips and unforgettable adventures.</p>
+</div>
+
+<div class="feature-card">
+    <div class="feature-icon">💰</div>
+    <h3>Affordable Prices</h3>
+    <p>Find wonderful travel experiences within your budget.</p>
+</div>
+</div>
+</section>
+</main>
+
+<!--footer-->
+<footer id="contact">
+<div>
+    <a href="#home" class="footer-logo">✈ Wanderlust</a>
+    <p>Explore the world.
+       Create memories. Live your journey.
+    </p>
+</div>
+
+<div class="footer-links">
+<a href="#home">Home</a>
+<a href="#destinations">Destinations</a>
+<a href="#about">About</a>
+<a href="mailto:hello@example.com">Email-Us</a>
+</div>
+
+<p class="copyright">© 2026 Wanderlust. All rights reserved.</p>
+</footer>
+</div>
+
+</body>
+</html>
