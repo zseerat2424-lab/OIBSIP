@@ -19,6 +19,7 @@ A visually attractive and responsive landing page designed for a product, servic
 ## Project Structure
 - `index.html` – Contains the HTML structure.
 - `style.css` – Contains the styling and layout.
+- `images/` – Stores website images and profile pictures.
 - `README.md` – Project documentation.
 
 ## How to Run
