@@ -204,9 +204,9 @@ transition: 0.3s;
 }
 
 .secondary-btn:hover{
+    transform: translateY(-4px);
     border-color: var(--blue);
     color:var(--blue);
-    transform: translateY(-4px);
 }
 
 .social-links{
