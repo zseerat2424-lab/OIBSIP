@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tempora | Temperature Converter</title>
+
+<!-- Favicon -->
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- Google Fonts -->
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+<h2>🌡️ Tempora<span>.</span></h2>
+<p>Temperature Converter</p>
+</header>
+
+<!-- Temerature Converter -->
+<main>
+<div class="converter-box" >
+
+<div class="heading">
+<h1>Temperature Converter</h1>
+<p>Convert Celsius, Fahrenheit and Kelvin easily.</p>
+<div class="temperature-icons">☀️ &nbsp; 🌡️ &nbsp; ❄️</div>
+</div>
+
+<form id="converter-form">
+
+<label for="temperature">Enter Temperature</label>
+
+<input
+type="number"
+id="temperature"
+placeholder="Enter temperature"
+step="any">
+
+<label for="unit">Select Unit</label>
+
+<select id="unit">
+<option value="C">Celsius (°C)</option>
+<option value="F">Fahrenheit (°F)</option>
+<option value="K">Kelvin (K)</option>
+</select>
+
+<p id="error-message" role="alert"></p>
+
+<button type="submit">Convert Temperature</button>
+<button type="reset" class="clear-button">Clear</button>
+
+</form>
+
+<!-- Results -->
+<div id="results-section" hidden>
+
+<h2>Conversion Results</h2>
+
+<div class="results">
+
+<div class="result-card celsius">
+<span>☀️</span>
+<p>Celsius</p>
+<h3 id="celsius-result">--</h3>
+<small>°C</small>
+</div>
+
+<div class="result-card fahrenheit">
+<span>🌡️</span>
+<p>Fahrenheit</p>
+<h3 id="fahrenheit-result">--</h3>
+<small>°F</small>
+</div>
+
+<div class="result-card kelvin">
+<span>❄️</span>
+<p>Kelvin</p>
+<h3 id="kelvin-result">--</h3>
+<small>K</small>
+</div>
+
+</div>
+</div>
+
+</div>
+</main>
+
+<!-- Footer -->
+<footer id="contact">
+<p>Made By Seerat Zahra | Tempora © 2026</p>
+</footer>
+
+</body>
+</html>

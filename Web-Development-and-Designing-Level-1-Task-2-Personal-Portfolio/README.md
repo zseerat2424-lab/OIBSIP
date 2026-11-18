@@ -38,3 +38,7 @@ A modern, visually attractive, and responsive personal portfolio website designe
 - **Track:** Web Development & Designing
 - **Level:** Level 1
 - **Task:** Task 2 – Personal Portfolio
+
+---
+
+Developed as part of the Oasis Infobyte Internship Program.

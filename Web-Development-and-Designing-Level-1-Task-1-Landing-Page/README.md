@@ -6,6 +6,7 @@ A visually attractive and responsive landing page designed for a product, servic
 ## Technologies Used
 - HTML5
 - CSS3
+- Google Fonts
 
 ## Features
 - Fixed or sticky navigation bar
@@ -33,3 +34,7 @@ A visually attractive and responsive landing page designed for a product, servic
 - **Track:** Web Development & Designing
 - **Level:** Level 1
 - **Task:** Task 1 – Landing Page
+
+---
+
+Developed as part of the Oasis Infobyte Internship Program.

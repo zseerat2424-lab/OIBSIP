@@ -1,5 +1,5 @@
 
-/*------General-----*/
+/* General */
 
 *{
     margin: 0;
@@ -45,7 +45,7 @@ input[type="radio"] {
     pointer-events: none;
 } 
 
-/*------Navbar------*/
+/* Navbar */
 
 .navbar{
     min-height: 85px;
@@ -112,7 +112,7 @@ input[type="radio"] {
     box-shadow: 0 8px 20px rgba(0,150,150,0.25);
 }
 
-/*----Hero----*/
+/* Hero */
 
 .hero{
     min-height: 620px;
@@ -207,7 +207,7 @@ input[type="radio"] {
     color: #718b87;
 }
 
-/*----Hero Image----*/
+/* Hero Image */
 
 .hero-visual{
     min-height: 490px;
@@ -248,7 +248,7 @@ input[type="radio"] {
     transform: scale(1.1);
 }
 
-/*-----Clickable Rotating Gallery-----*/
+/* Clickable Rotating Gallery */
 
 .orbit{
     position: absolute;
@@ -330,8 +330,6 @@ input[type="radio"] {
     box-shadow:0 10px 30px rgba(0,70,60,0.2);
     transition:transform 0.4s ease,  border 0.4s ease, box-shadow 0.4s ease;
     background:white;
-
-
     cursor: pointer;
 }
 
@@ -391,7 +389,7 @@ input[type="radio"] {
     letter-spacing:1px;
 }
 
-/*----General Sections----*/
+/* General Sections */
 
 .section{
     padding:85px 6%;
@@ -414,7 +412,7 @@ input[type="radio"] {
     font-size:13px;
 }
 
-/*----Destination Cards----*/
+/* Destination Cards */
 
 .destinations{
     background:#e5fff5;
@@ -490,7 +488,7 @@ input[type="radio"] {
     color:#005d5b;
 }
 
-/*---About---*/
+/* About */
 
 .about{
 display:grid;
@@ -531,7 +529,7 @@ gap:55px;
     margin:10px 0;
 }
 
-/*---Features---*/
+/* Features */
 
 .features{
     background:#e5fff5;
@@ -583,7 +581,7 @@ gap:55px;
     line-height:1.8;
 }
 
-/*---Footer---*/
+/* Footer */
 
 footer{
     padding:40px 6% 15px;
@@ -631,7 +629,7 @@ footer p{
     text-align:center;
 }
 
-/*-----Animations----*/
+/* Animations */
 
 @keyframes float{
     0%, 100%{
@@ -664,7 +662,7 @@ transform:translateY(0);
     }
 }
 
-/*----Responsive Design----*/
+/* Responsive Design */
 
 @media (max-width:900px){
 
